@@ -19,4 +19,4 @@
 * VSCode
 * Git
 
-## [Ссылка на проект: Mesto]()
+## [Ссылка на проект: Mesto](https://alena-st-code.github.io/mesto-project/index.html)
