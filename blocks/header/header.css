@@ -1,0 +1,17 @@
+.header {
+  max-width: 880px;
+  margin: 45px auto 40px;
+  display: flex;
+  justify-content: start;
+  box-shadow: 0 1px 0 0 #545454 ;
+
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: 320px;
+    margin: 28px auto 42px;
+  }
+}
+
+
