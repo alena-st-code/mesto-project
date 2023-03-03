@@ -15,6 +15,10 @@
   width: 100%;
 }
 
+.popup__button:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1279px) {
   .popup__button {
       font-size: 14px;

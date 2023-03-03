@@ -1,18 +1,16 @@
 .profile__info {
   max-width: 336px;
-  max-height: 73px;
+  height: 76px;
   margin: 22px 244px 25px 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
 }
 
 @media screen and (max-width: 1279px) {
   .profile__info {
     max-width: 282px;
-    max-height: 54px;
-    margin: 26px auto 36px;
+    height: 56px;
+    margin: 26px auto 34px;
   }
 }

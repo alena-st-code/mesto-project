@@ -9,7 +9,6 @@
   .profile {
     max-width: 282px;
     margin: 0 auto 36px;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
 }

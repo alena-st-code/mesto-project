@@ -1,6 +1,6 @@
 .photo-cards__like-button {
-  width: 22px;
-  height: 19px;
+  min-width: 22px;
+  min-height: 19px;
   padding: 0;
   border: none;
   font: inherit;
@@ -9,10 +9,12 @@
   cursor: pointer;
   background-image: url(../../../images/like-button.svg);
   background-repeat: no-repeat;
-  margin: 5px 5px 0 0;
-  padding-left: 25px;
+  background-size: contain;
+  margin: 0;
+  margin-right: 5px;
+  align-self: center;
 }
 
-.photo-cards__like-button:active {
-  background-image: url(../../../images/like-button_active.svg);
+.photo-cards__like-button:hover {
+  opacity: 0.5;
 }
